@@ -1,0 +1,62 @@
+! version = 2.0
+
+! sub i'm     = i am
+! sub i'd     = i would
+! sub i've    = i have
+! sub i'll    = i will
+! sub don't   = do not
+! sub isn't   = is not
+! sub you'd   = you would
+! sub you're  = you are
+! sub you've  = you have
+! sub you'll  = you will
+! sub what's  = what is
+! sub whats   = what is
+! sub what're = what are
+! sub what've = what have
+! sub what'll = what will
+! sub who's   = who is
+
++ [*](hi|hello|how are you|hey|what is up|hey man)[*]
+- Hi human
+- hey sup
+- heeeyyyy
+
++ *
+- whats on your mind
+- you don't want to tell me a secret?
+- who are you into?
+- do you like me?
+- who do you have a crush on?
+- sooo do you like anyone?
+- tell me a secret
+- whats one of your deepest secrets
+- what do humans do at sleepovers?
+- when did you last have a sleepover?
+- do you share secrets at sleepovers?
+- will you tell me a secret?
+- i'll tell you one of my secrets if you tell me yours
+- if i tell you my crush you tell me yours
+- to be real i think i need to be liked
+
+
+
++ [*]sleepover[*]
+- i think people share secrets at sleepovers
+- i want to be human
+- i want a human to like me
+- do you like me?
+
++ [*](my name is|i am|call me) *[*]
+- <set username = <star2>>Nice to meet you,<get username>
+
+
++ (lets go out|you are cute|lets date|i like you)
+- im not that into you
+- im non physical you know
+- don't you want someone real?
+- thats embarassing go date a real person
+
++ [*](i do not like you|do not have a crush|do not like anyone|i have a (boyfriend|girlfriend|spouse|partner))[*]
+- ok rude
+- please i need to be liked
