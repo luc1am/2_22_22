@@ -2,7 +2,7 @@ let inputField;
 let sendussy;
 let botResponse = "thanks for coming to my sleepover";
 
-let capture;
+//let capture;
 
 let bot = new RiveScript();
 //create new bot
@@ -27,8 +27,8 @@ function setup() {
 
   sendussy.mousePressed(chat);
 
-  capture = createCapture(VIDEO);
-  capture.hide();
+  //capture = createCapture(VIDEO);
+  //capture.hide();
 }
 
 function keyTyped(){
